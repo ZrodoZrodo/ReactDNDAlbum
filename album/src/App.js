@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
 <div>
-<Album url={'url to send a photo'} limit={10}/>
+<Album url={'url to send a photo'} limit={3}/>
     </div>
   );
 }

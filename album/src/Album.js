@@ -6,7 +6,6 @@ const { v4: uuid } = require('uuid');
 const AlbumComponent = (props) => {
     const [album, setAlbum] = useState([]);
     const [limit, setLimit] = useState(true);
-    //this function check photos and if file is a photo add to table
     const addPhoto = (photo) => {
         const validPhoto = [];
         for (let i = 0; i < photo.length; i++) {
